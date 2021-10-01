@@ -104,7 +104,7 @@ const clickHandler = (e) => {
     h2.textContent = "残念";
     true_answer.textContent = '答えは' + quiz[quizIndex].correct + 'です';
     dammy.classList.add("front");
-    damage++
+    damage++;
   }
 
   if(score >= 1 && score <= 3) {
