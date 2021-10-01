@@ -16,7 +16,6 @@ const man = document.querySelector('.man');
 const true_answer = document.querySelector('.true-answer');
 const quiz = others_quiz;
 const quizLength = quiz.length;
-console.log(others_quiz.length);
 let dammyAnswers = [];
 for(let i = 1; i < quizLength; i++) {
   dammyAnswers.push(quiz[i].correct);
