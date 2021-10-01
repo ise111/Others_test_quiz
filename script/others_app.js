@@ -13,6 +13,7 @@ const result = document.querySelector('.result');
 const report = document.querySelector('.report');
 const btn_inv = document.querySelector('.btn-inv');
 const man = document.querySelector('.man');
+const true_answer = document.querySelector('.true-answer');
 const quiz = others_quiz;
 const quizLength = quiz.length;
 console.log(others_quiz.length);
